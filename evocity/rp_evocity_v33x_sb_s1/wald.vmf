@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8870"
-	"mapversion" "122"
+	"mapversion" "123"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "122"
+	"mapversion" "123"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -88313,28 +88313,6 @@ entity
 }
 entity
 {
-	"id" "86167"
-	"classname" "prop_static"
-	"angles" "0 173 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ignorenormals" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"model" "models/props_exteriors/park_sign.mdl"
-	"skin" "0"
-	"solid" "6"
-	"origin" "1141 3639 -479.25"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[8000 9500]"
-	}
-}
-entity
-{
 	"id" "86179"
 	"classname" "prop_static"
 	"angles" "0 233 0"
@@ -89215,27 +89193,6 @@ entity
 }
 entity
 {
-	"id" "86414"
-	"classname" "prop_static"
-	"angles" "0 234 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ignorenormals" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"model" "models/county/foliage/ponderosa_pine11b.mdl"
-	"solid" "6"
-	"origin" "3840 1024 -445.079"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[11000 4000]"
-	}
-}
-entity
-{
 	"id" "86418"
 	"classname" "prop_static"
 	"angles" "0 203 0"
@@ -89485,27 +89442,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[11000 10000]"
-	}
-}
-entity
-{
-	"id" "86466"
-	"classname" "prop_static"
-	"angles" "0 82 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ignorenormals" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"model" "models/county/foliage/ponderosa_pine11b.mdl"
-	"solid" "6"
-	"origin" "3712 896 -451.428"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[11000 10500]"
 	}
 }
 entity
@@ -92949,27 +92885,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[12500 2500]"
-	}
-}
-entity
-{
-	"id" "122842"
-	"classname" "prop_static"
-	"angles" "0 65 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ignorenormals" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"model" "models/county/foliage/ponderosa_pine11b.mdl"
-	"solid" "6"
-	"origin" "4096 640 -448.456"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[12500 3000]"
 	}
 }
 entity
@@ -105187,6 +105102,562 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "149931"
+	"classname" "prop_static"
+	"angles" "0 228 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/county/foliage/ponderosa_pine11b.mdl"
+	"solid" "6"
+	"origin" "4352 512 -453.385"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 10000]"
+	}
+}
+entity
+{
+	"id" "149935"
+	"classname" "prop_static"
+	"angles" "0 253 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/county/foliage/ponderosa_pine11b.mdl"
+	"solid" "6"
+	"origin" "4608 512 -451.813"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 10500]"
+	}
+}
+entity
+{
+	"id" "149939"
+	"classname" "prop_static"
+	"angles" "0 109 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/county/foliage/fir_tree02.mdl"
+	"skin" "1"
+	"solid" "6"
+	"origin" "4480 768 -454.442"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 11000]"
+	}
+}
+entity
+{
+	"id" "149943"
+	"classname" "prop_static"
+	"angles" "0 195 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/county/foliage/fir_tree_young_1.mdl"
+	"solid" "6"
+	"origin" "4480 640 -448.292"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 11500]"
+	}
+}
+entity
+{
+	"id" "149947"
+	"classname" "prop_static"
+	"angles" "0 80 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/county/foliage/ponderosa_pine11b.mdl"
+	"solid" "6"
+	"origin" "4736 640 -465.415"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 12000]"
+	}
+}
+entity
+{
+	"id" "149951"
+	"classname" "prop_static"
+	"angles" "0 114 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/county/foliage/ponderosa_pine11b.mdl"
+	"solid" "6"
+	"origin" "4608 1152 -462.004"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 12500]"
+	}
+}
+entity
+{
+	"id" "149955"
+	"classname" "prop_static"
+	"angles" "0 63 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/county/foliage/fir_tree02.mdl"
+	"skin" "1"
+	"solid" "6"
+	"origin" "3840 1536 -459.612"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 13000]"
+	}
+}
+entity
+{
+	"id" "149959"
+	"classname" "prop_static"
+	"angles" "0 273 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/county/foliage/ponderosa_pine11b.mdl"
+	"solid" "6"
+	"origin" "3840 1152 -448.397"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 13500]"
+	}
+}
+entity
+{
+	"id" "149963"
+	"classname" "prop_static"
+	"angles" "0 250 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/county/foliage/fir_tree01.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "3840 1408 -460.673"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 14000]"
+	}
+}
+entity
+{
+	"id" "149967"
+	"classname" "prop_static"
+	"angles" "0 9 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/county/foliage/fir_tree02.mdl"
+	"skin" "1"
+	"solid" "6"
+	"origin" "3840 1024 -445.079"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 14500]"
+	}
+}
+entity
+{
+	"id" "149971"
+	"classname" "prop_static"
+	"angles" "0 151 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/county/foliage/ponderosa_pine11b.mdl"
+	"solid" "6"
+	"origin" "3712 896 -451.428"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 15000]"
+	}
+}
+entity
+{
+	"id" "149979"
+	"classname" "prop_static"
+	"angles" "0 268 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/county/foliage/ponderosa_pine11b.mdl"
+	"solid" "6"
+	"origin" "3712 768 -455.911"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 16000]"
+	}
+}
+entity
+{
+	"id" "149983"
+	"classname" "prop_static"
+	"angles" "0 307 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/county/foliage/ponderosa_pine11b.mdl"
+	"solid" "6"
+	"origin" "3840 768 -460.849"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -16268]"
+	}
+}
+entity
+{
+	"id" "149987"
+	"classname" "prop_static"
+	"angles" "0 185 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/county/foliage/ponderosa_pine11b.mdl"
+	"solid" "6"
+	"origin" "4096 640 -448.456"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -15768]"
+	}
+}
+entity
+{
+	"id" "149991"
+	"classname" "prop_static"
+	"angles" "0 334 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/county/foliage/ponderosa_pine11b.mdl"
+	"solid" "6"
+	"origin" "8704 0 -461.907"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -15268]"
+	}
+}
+entity
+{
+	"id" "149995"
+	"classname" "prop_static"
+	"angles" "0 150 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/county/foliage/ponderosa_pine11b.mdl"
+	"solid" "6"
+	"origin" "8960 -1024 -449.826"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -14768]"
+	}
+}
+entity
+{
+	"id" "149999"
+	"classname" "prop_static"
+	"angles" "0 218 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/county/foliage/ponderosa_pine11b.mdl"
+	"solid" "6"
+	"origin" "9600 -1664 -459.458"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -14268]"
+	}
+}
+entity
+{
+	"id" "150003"
+	"classname" "prop_static"
+	"angles" "0 182 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/county/foliage/fir_tree02.mdl"
+	"skin" "1"
+	"solid" "6"
+	"origin" "9600 -768 -463.529"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -13768]"
+	}
+}
+entity
+{
+	"id" "150007"
+	"classname" "prop_static"
+	"angles" "0 91 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/county/foliage/fir_tree02.mdl"
+	"skin" "1"
+	"solid" "6"
+	"origin" "9088 -1024 -458.02"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -13268]"
+	}
+}
+entity
+{
+	"id" "150011"
+	"classname" "prop_static"
+	"angles" "0 313 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/county/foliage/ponderosa_pine11b.mdl"
+	"solid" "6"
+	"origin" "8832 -1152 -448.308"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -12768]"
+	}
+}
+entity
+{
+	"id" "150015"
+	"classname" "prop_static"
+	"angles" "0 234 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/county/foliage/fir_tree01.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "8960 -1408 -456.747"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -12268]"
+	}
+}
+entity
+{
+	"id" "150019"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/county/foliage/fir_tree02.mdl"
+	"skin" "1"
+	"solid" "6"
+	"origin" "9088 -2176 -456.158"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -11768]"
+	}
+}
+entity
+{
+	"id" "150023"
+	"classname" "prop_static"
+	"angles" "0 311 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/county/foliage/fir_tree02.mdl"
+	"skin" "1"
+	"solid" "6"
+	"origin" "9344 -2048 -464.181"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -11268]"
+	}
+}
+entity
+{
+	"id" "150027"
+	"classname" "prop_static"
+	"angles" "0 169 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/county/foliage/ponderosa_pine11b.mdl"
+	"solid" "6"
+	"origin" "8960 0 -453.849"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -10768]"
+	}
+}
+entity
+{
+	"id" "150031"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/county/foliage/ponderosa_pine11b.mdl"
+	"solid" "6"
+	"origin" "8832 128 -449.569"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -10268]"
+	}
+}
+entity
+{
+	"id" "150035"
+	"classname" "prop_static"
+	"angles" "0 356 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/county/foliage/fir_tree01.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "8960 256 -455.338"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -9768]"
 	}
 }
 cameras
